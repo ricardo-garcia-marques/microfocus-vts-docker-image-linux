@@ -1,0 +1,15 @@
+#!/bin/sh
+
+
+print_version()
+{
+product_file="ProductDir/version.txt"
+if [ -f $product_file ]; then
+	cat $product_file
+	echo ""
+fi
+
+}
+
+print_version
+
