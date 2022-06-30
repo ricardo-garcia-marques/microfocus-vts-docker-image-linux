@@ -7,10 +7,6 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-18.04
-    defaults:
-      run:
-        shell: sh
-        working-directory: .  
     steps:
       -
         name: Checkout
