@@ -34,7 +34,7 @@ jobs:
           context: .
           push: true
           tags: ${{secrets.DOCKER_USERNAME}}/${{secrets.DOCKER_REPOSITORY}}:${{steps.tag.outputs.tag}}
-       - 
+       -
         name: Docker Hub Description
         uses: peter-evans/dockerhub-description@v2
         with:
