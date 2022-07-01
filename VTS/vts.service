@@ -1,0 +1,10 @@
+[Unit]
+Description=VTS Service
+
+[Service]
+LimitNOFILE=999999
+ExecStart=ProductDir/vts.sh
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
