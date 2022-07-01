@@ -8,9 +8,7 @@ The Docker image was built with Ubuntu 18.04
 
 ### Prerequisities
 
-In order to run this container you'll need docker installed
-
-* [Windows](https://docs.docker.com/windows/started)
+In order to run this container you'll need [docker](https://www.docker.com/) installed
 
 ### Usage
 
@@ -50,8 +48,6 @@ These enviroment variables modify VTS configuration. For more information see '[
 * `DEFAULT_LANGUAGE` - Sets the VTS server language, the default value is en 
 * `LOGGER_LEVEL` - Specifies the level of logging, the default value is error 
 
-#### Vesions 2020.2.0 and erlier
-* `TLS_VERSION` - (instead `TLS_MAX_VERSION/TLS_MIN_VERSION`) Possible values: auto, tls1.0, tls1.1, tls1.2. The default value is auto
 ## Repository
 
 * [GitHub](https://github.com/ricardo-garcia-marques/microfocus-vts-docker-image-windows)
