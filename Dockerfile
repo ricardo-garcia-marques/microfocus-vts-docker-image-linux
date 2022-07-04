@@ -9,6 +9,7 @@ RUN chmod -R 755 /tmp/VTS
 RUN /tmp/VTS/inst64.bin -i silent -DVTS_DATA_FOLDER='\"/tmp/VTS/logs\"' -DADMIN_UI_SERVER_PORT=4000
 
 ADD runVTS.sh /opt/MF/MF_VTS/
+RUN chmod 755 /opt/MF/MF_VTS/runVTS.sh
 
 ENV ADMIN_PORT=4000 \
     DEFAULT_API_PORT=8888 \
