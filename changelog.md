@@ -5,7 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog],
 and this project adheres to [Semantic Versioning].
 
-## [Unreleased]
+## [2021.2.0] - 2022-07-05
 ### Changed
 - Update VTS to 2021.2.0 version
 
